@@ -3,7 +3,7 @@ cpp
 using namespace std;
 
 int main() {
-    int num1, num2, sum;
+    int num1, num2, sub;
 
     // Input two numbers
     cout << "Enter the first number: ";
@@ -12,10 +12,10 @@ int main() {
     cin >> num2;
 
     // Calculate sum
-    sum = num1 + num2;
+    sub = num1 - num2;
 
     // Display the sum
-    cout << "The sum of " << num1 << " and " << num2 << " is " << sum << endl;
+    cout << "The sub of " << num1 << " and " << num2 << " is " << sub << endl;
 
     return 0;
 }
